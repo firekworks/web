@@ -1,66 +1,70 @@
 {
   "whatsappPhone": "34600000000",
   "seo": {
-    "title": "Firekworks — Captación de clientes para comercios locales",
-    "description": "Firekworks convierte la visibilidad de comercios locales en mensajes, reservas y clientes reales."
+    "title": "Firekworks | Agencia de captación de clientes para negocios locales",
+    "description": "Agencia de marketing digital para negocios locales. Ayudamos a comercios, restaurantes, clínicas y gimnasios a conseguir más WhatsApps, reservas y clientes con contenido, web, Google y campañas."
   },
   "hero": {
-    "eyebrow": "Captación para comercios locales",
+    "eyebrow": "Captación local para negocios que quieren vender más",
     "titleMain": "Más clientes.",
     "titleAccent": "Menos humo.",
-    "subtitle": "Contenido, anuncios, Google y WhatsApp conectados para generar reservas, llamadas y mensajes.",
+    "subtitle": "Hacemos que la gente de tu zona te descubra, confíe y termine escribiéndote.",
     "primaryButton": "Quiero que reviséis mi negocio",
     "secondaryButton": "Ver sistema",
-    "pillOne": "Anuncios que traen gente",
-    "pillTwo": "WhatsApp que cierra",
-    "pillThree": "Google que aparece"
+    "pillOne": "Te descubren",
+    "pillTwo": "Confían",
+    "pillThree": "Te escriben"
   },
   "problem": {
     "kicker": "Lo que suele pasar",
     "title": "Te ven. Dudan. Se van.",
-    "subtitle": "El problema no es solo publicar. Es no tener un camino claro hasta la venta.",
+    "subtitle": "Si no entienden rápido por qué elegirte, comparan por precio o se olvidan.",
     "cards": [
       {
         "number": "01",
-        "title": "Redes bonitas, pocos mensajes.",
-        "text": "Mucho contenido. Poca conversión."
+        "title": "Te ven, pero no te entienden.",
+        "text": "Tu valor no queda claro en segundos."
       },
       {
         "number": "02",
-        "title": "Google descuidado.",
-        "text": "Te buscan, pero otro parece mejor."
+        "title": "Comparan y eligen a otro.",
+        "text": "Si pareces menos claro, pierdes."
       },
       {
         "number": "03",
-        "title": "WhatsApp improvisado.",
-        "text": "Preguntan. Tardas. Se enfrían."
+        "title": "Preguntan y se enfrían.",
+        "text": "Sin camino fácil, la conversación muere."
       }
     ]
   },
   "system": {
     "kicker": "Método Firekworks",
-    "title": "Encendemos el recorrido completo.",
-    "subtitle": "De verte por primera vez a escribirte con intención.",
+    "title": "De verlo claro a escribirte.",
+    "subtitle": "Cuatro pasos simples para que el cliente entienda, confíe y contacte.",
     "steps": [
       {
-        "label": "01 · Diagnóstico",
-        "title": "Vemos dónde pierdes clientes.",
-        "text": "Redes, Google, web, WhatsApp y competencia."
+        "icon": "🔎",
+        "label": "Paso 1",
+        "title": "Vemos qué frena.",
+        "text": "Revisamos imagen, mensajes, Google y WhatsApp."
       },
       {
-        "label": "02 · Oferta",
-        "title": "Hacemos fácil elegirte.",
-        "text": "Mensaje claro. Acción clara."
+        "icon": "✨",
+        "label": "Paso 2",
+        "title": "Lo dejamos claro.",
+        "text": "Para que entiendan rápido por qué elegirte."
       },
       {
-        "label": "03 · Atracción",
-        "title": "Contenido + anuncios.",
-        "text": "Impacto local con intención."
+        "icon": "📍",
+        "label": "Paso 3",
+        "title": "Te damos visibilidad.",
+        "text": "Contenido y campañas para gente de tu zona."
       },
       {
-        "label": "04 · Conversión",
-        "title": "WhatsApp preparado.",
-        "text": "Menos dudas. Más reservas."
+        "icon": "💬",
+        "label": "Paso 4",
+        "title": "Lo llevamos a WhatsApp.",
+        "text": "Un camino fácil para preguntar, reservar o pedir cita."
       }
     ]
   },
@@ -97,46 +101,59 @@
   "difference": {
     "kicker": "La diferencia",
     "title": "No vendemos posts.",
-    "text": "Montamos un sistema mensual para que la visibilidad acabe en conversaciones reales.",
+    "text": "Montamos un sistema para que tu presencia digital acabe en conversaciones reales.",
     "metrics": [
       {
+        "icon": "💬",
         "title": "+ mensajes",
-        "text": "Campañas pensadas para iniciar conversaciones."
+        "text": "Conversaciones con gente que ya entiende qué ofreces."
       },
       {
+        "icon": "📅",
         "title": "+ reservas",
-        "text": "WhatsApp y landing orientados a cerrar."
+        "text": "Un camino más fácil para pedir cita, reservar o preguntar."
       },
       {
+        "icon": "📈",
         "title": "+ control",
-        "text": "Medimos lo que importa cada mes."
+        "text": "Medimos lo importante y ajustamos cada mes."
       }
     ]
   },
   "projects": {
     "kicker": "Proyectos",
     "title": "Casos que se entienden de un vistazo.",
-    "subtitle": "Trabajos orientados a imagen, captación y conversación.",
+    "subtitle": "Tres ejemplos para que cada comercio vea cómo aplicaríamos el sistema a su caso.",
     "items": [
       {
-        "slug": "restaurante-local",
-        "title": "Restaurante local",
+        "slug": "restaurantes",
+        "title": "Restaurantes",
         "category": "Hostelería",
-        "summary": "Contenido, anuncios y WhatsApp para mover reservas.",
-        "image": "assets/uploads/proyecto-placeholder.png",
-        "problem": "Pocas reservas entre semana.",
-        "solution": "Oferta clara, creatividades locales y WhatsApp preparado.",
-        "result": "Más conversaciones medibles."
+        "summary": "Para llenar días flojos y convertir miradas en reservas.",
+        "image": "assets/uploads/proyecto-restaurantes.png",
+        "problem": "El restaurante tiene buena comida, pero entre semana cuesta llenar y las redes no acaban generando reservas.",
+        "solution": "Creamos una oferta fácil de entender, contenido visual de platos/ambiente, campaña local y WhatsApp preparado para cerrar reserva sin fricción.",
+        "result": "Más conversaciones medibles y una ruta clara desde ver el contenido hasta escribir para reservar."
       },
       {
-        "slug": "clinica-local",
-        "title": "Clínica local",
-        "category": "Servicios",
-        "summary": "Presencia local, confianza y captación por mensajes.",
-        "image": "assets/uploads/proyecto-placeholder.png",
-        "problem": "Buena reputación, poca visibilidad digital.",
-        "solution": "Google Business, landing y anuncios de captación.",
-        "result": "Más solicitudes de información."
+        "slug": "clinicas",
+        "title": "Clínicas",
+        "category": "Salud / estética",
+        "summary": "Para generar confianza antes de que pidan cita.",
+        "image": "assets/uploads/proyecto-clinicas.png",
+        "problem": "El cliente necesita confianza, pero la clínica comunica de forma fría o poco clara y Google no ayuda a decidir.",
+        "solution": "Ordenamos servicios, prueba social, ficha de Google, landing sencilla y mensajes orientados a solicitud de información.",
+        "result": "Más solicitudes cualificadas y una imagen más profesional antes del primer contacto."
+      },
+      {
+        "slug": "gimnasios",
+        "title": "Gimnasios",
+        "category": "Fitness / centros",
+        "summary": "Para transformar interés en pruebas, leads y altas.",
+        "image": "assets/uploads/proyecto-gimnasios.png",
+        "problem": "Hay interés, pero la gente pregunta poco, compara precios y no entiende qué diferencia al centro.",
+        "solution": "Mensaje claro, piezas visuales de experiencia real, campañas por zona y WhatsApp con respuesta enfocada a visita/prueba.",
+        "result": "Más contactos accionables y mejor conversión de curiosos en potenciales socios."
       }
     ]
   },
@@ -146,6 +163,6 @@
     "text": "Escríbenos por WhatsApp. Te decimos qué tocaríamos primero y qué no tiene sentido pagar todavía.",
     "formTitle": "Diagnóstico Firekworks",
     "formSubtitle": "Respuesta por WhatsApp",
-    "button": "Abrir WhatsApp"
+    "button": "Enviar por WhatsApp"
   }
 }

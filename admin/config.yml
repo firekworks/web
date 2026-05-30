@@ -58,21 +58,10 @@ collections:
                 name: "steps"
                 widget: "list"
                 fields:
+                  - { label: "Icono", name: "icon", widget: "string", hint: "Ej: 🔎, ✨, 📍, 💬" }
                   - { label: "Etiqueta", name: "label", widget: "string" }
                   - { label: "Título", name: "title", widget: "string" }
                   - { label: "Texto", name: "text", widget: "text" }
-          - label: "Servicios"
-            name: "services"
-            widget: "object"
-            fields:
-              - { label: "Kicker", name: "kicker", widget: "string" }
-              - { label: "Título", name: "title", widget: "string" }
-              - label: "Servicios"
-                name: "items"
-                widget: "list"
-                fields:
-                  - { label: "Icono", name: "icon", widget: "string" }
-                  - { label: "Nombre", name: "name", widget: "string" }
           - label: "Diferencia"
             name: "difference"
             widget: "object"
@@ -84,6 +73,7 @@ collections:
                 name: "metrics"
                 widget: "list"
                 fields:
+                  - { label: "Icono", name: "icon", widget: "string", hint: "Ej: 💬, 📅, 📈" }
                   - { label: "Título", name: "title", widget: "string" }
                   - { label: "Texto", name: "text", widget: "text" }
           - label: "Proyectos"
