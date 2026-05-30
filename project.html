@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Firekworks</title>
+  <meta name="description" content="Proyecto de captación local de Firekworks." />
+  <style>
+    :root{--turquoise:#29E7CD;--bittersweet:#F76666;--rich-black:#011627;--white:#F7FBFC;--soft:rgba(247,251,252,.76);--muted:rgba(247,251,252,.54);--max:980px}
+    *{box-sizing:border-box;margin:0;padding:0}body{font-family:"Altivo","Inter","Segoe UI",system-ui,sans-serif;background:#011627;color:var(--white);line-height:1.15;padding:32px 22px;background-image:radial-gradient(circle at 20% 10%,rgba(41,231,205,.22),transparent 28%),radial-gradient(circle at 80% 80%,rgba(247,102,102,.13),transparent 28%)}
+    main{width:min(100%,var(--max));margin:0 auto}.back{display:inline-flex;margin-bottom:48px;color:var(--turquoise);font-weight:800;text-decoration:none}.kicker{color:var(--turquoise);text-transform:uppercase;letter-spacing:.12em;font-weight:900;font-size:.78rem;margin-bottom:14px}h1{font-size:clamp(3.4rem,10vw,8rem);line-height:.78;letter-spacing:-.09em;margin-bottom:22px}p{color:var(--soft);font-size:1.2rem;line-height:1.35}.hero-img{width:100%;height:min(56vw,520px);object-fit:cover;border-radius:34px;margin:36px 0;border:1px solid rgba(41,231,205,.22);box-shadow:0 28px 110px rgba(0,0,0,.42);background:rgba(247,251,252,.05)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}.card{border-radius:26px;background:rgba(247,251,252,.06);border:1px solid rgba(247,251,252,.1);padding:22px}.card strong{display:block;color:var(--turquoise);margin-bottom:12px;font-size:1.2rem}.btn{display:inline-flex;margin-top:36px;background:var(--turquoise);color:var(--rich-black);border-radius:999px;padding:15px 20px;font-weight:900;text-decoration:none}@media(max-width:760px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="/">← Volver a Firekworks</a>
+    <div class="kicker" id="category">Proyecto</div>
+    <h1 id="title">Proyecto Firekworks</h1>
+    <p id="summary">Cargando proyecto...</p>
+    <img class="hero-img" id="image" src="assets/uploads/proyecto-placeholder.png" alt="Proyecto Firekworks" />
+    <section class="grid">
+      <article class="card"><strong>Problema</strong><p id="problem"></p></article>
+      <article class="card"><strong>Solución</strong><p id="solution"></p></article>
+      <article class="card"><strong>Resultado</strong><p id="result"></p></article>
+    </section>
+    <a class="btn" id="whatsapp" href="#">Quiero algo parecido</a>
+  </main>
+  <script>
+    async function init(){
+      const params = new URLSearchParams(location.search);
+      const slug = params.get('slug');
+      const res = await fetch('data/site.json', {cache:'no-store'});
+      const data = await res.json();
+      const p = data.projects.items.find(item => item.slug === slug) || data.projects.items[0];
+      document.title = `${p.title} — Firekworks`;
+      document.querySelector('#category').textContent = p.category || 'Proyecto';
+      document.querySelector('#title').textContent = p.title || 'Proyecto Firekworks';
+      document.querySelector('#summary').textContent = p.summary || '';
+      document.querySelector('#image').src = p.image || 'assets/uploads/proyecto-placeholder.png';
+      document.querySelector('#image').alt = p.title || 'Proyecto Firekworks';
+      document.querySelector('#problem').textContent = p.problem || '';
+      document.querySelector('#solution').textContent = p.solution || '';
+      document.querySelector('#result').textContent = p.result || '';
+      const phone = data.whatsappPhone || '34600000000';
+      const msg = `Hola, he visto el proyecto ${p.title} de Firekworks y quiero algo parecido para mi negocio.`;
+      document.querySelector('#whatsapp').href = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
+    }
+    init();
+  </script>
+</body>
+</html>

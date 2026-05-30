@@ -1,0 +1,117 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Web Firekworks"
+    files:
+      - label: "Contenido principal"
+        name: "home"
+        file: "data/site.json"
+        fields:
+          - { label: "Número de WhatsApp", name: "whatsappPhone", widget: "string", hint: "Formato: 34600000000, sin + ni espacios" }
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Título SEO", name: "title", widget: "string" }
+              - { label: "Descripción SEO", name: "description", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string" }
+              - { label: "Título línea 1", name: "titleMain", widget: "string" }
+              - { label: "Título destacado", name: "titleAccent", widget: "string" }
+              - { label: "Subtítulo", name: "subtitle", widget: "text" }
+              - { label: "Botón principal", name: "primaryButton", widget: "string" }
+              - { label: "Botón secundario", name: "secondaryButton", widget: "string" }
+              - { label: "Etiqueta flotante 1", name: "pillOne", widget: "string" }
+              - { label: "Etiqueta flotante 2", name: "pillTwo", widget: "string" }
+              - { label: "Etiqueta flotante 3", name: "pillThree", widget: "string" }
+          - label: "Problema"
+            name: "problem"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Subtítulo", name: "subtitle", widget: "text" }
+              - label: "Tarjetas"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Número", name: "number", widget: "string" }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "text" }
+          - label: "Sistema"
+            name: "system"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Subtítulo", name: "subtitle", widget: "text" }
+              - label: "Pasos"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Etiqueta", name: "label", widget: "string" }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "text" }
+          - label: "Servicios"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Servicios"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Icono", name: "icon", widget: "string" }
+                  - { label: "Nombre", name: "name", widget: "string" }
+          - label: "Diferencia"
+            name: "difference"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "text", widget: "text" }
+              - label: "Métricas"
+                name: "metrics"
+                widget: "list"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "text" }
+          - label: "Proyectos"
+            name: "projects"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Subtítulo", name: "subtitle", widget: "text" }
+              - label: "Lista de proyectos"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Slug", name: "slug", widget: "string", hint: "Ej: restaurante-castalla" }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Categoría", name: "category", widget: "string" }
+                  - { label: "Resumen", name: "summary", widget: "text" }
+                  - { label: "Imagen", name: "image", widget: "image" }
+                  - { label: "Problema", name: "problem", widget: "text" }
+                  - { label: "Solución", name: "solution", widget: "text" }
+                  - { label: "Resultado", name: "result", widget: "text" }
+          - label: "Contacto"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "text", widget: "text" }
+              - { label: "Título formulario", name: "formTitle", widget: "string" }
+              - { label: "Subtítulo formulario", name: "formSubtitle", widget: "string" }
+              - { label: "Texto botón", name: "button", widget: "string" }

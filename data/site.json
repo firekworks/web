@@ -1,0 +1,151 @@
+{
+  "whatsappPhone": "34600000000",
+  "seo": {
+    "title": "Firekworks — Captación de clientes para comercios locales",
+    "description": "Firekworks convierte la visibilidad de comercios locales en mensajes, reservas y clientes reales."
+  },
+  "hero": {
+    "eyebrow": "Captación para comercios locales",
+    "titleMain": "Más clientes.",
+    "titleAccent": "Menos humo.",
+    "subtitle": "Contenido, anuncios, Google y WhatsApp conectados para generar reservas, llamadas y mensajes.",
+    "primaryButton": "Quiero que reviséis mi negocio",
+    "secondaryButton": "Ver sistema",
+    "pillOne": "Anuncios que traen gente",
+    "pillTwo": "WhatsApp que cierra",
+    "pillThree": "Google que aparece"
+  },
+  "problem": {
+    "kicker": "Lo que suele pasar",
+    "title": "Te ven. Dudan. Se van.",
+    "subtitle": "El problema no es solo publicar. Es no tener un camino claro hasta la venta.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Redes bonitas, pocos mensajes.",
+        "text": "Mucho contenido. Poca conversión."
+      },
+      {
+        "number": "02",
+        "title": "Google descuidado.",
+        "text": "Te buscan, pero otro parece mejor."
+      },
+      {
+        "number": "03",
+        "title": "WhatsApp improvisado.",
+        "text": "Preguntan. Tardas. Se enfrían."
+      }
+    ]
+  },
+  "system": {
+    "kicker": "Método Firekworks",
+    "title": "Encendemos el recorrido completo.",
+    "subtitle": "De verte por primera vez a escribirte con intención.",
+    "steps": [
+      {
+        "label": "01 · Diagnóstico",
+        "title": "Vemos dónde pierdes clientes.",
+        "text": "Redes, Google, web, WhatsApp y competencia."
+      },
+      {
+        "label": "02 · Oferta",
+        "title": "Hacemos fácil elegirte.",
+        "text": "Mensaje claro. Acción clara."
+      },
+      {
+        "label": "03 · Atracción",
+        "title": "Contenido + anuncios.",
+        "text": "Impacto local con intención."
+      },
+      {
+        "label": "04 · Conversión",
+        "title": "WhatsApp preparado.",
+        "text": "Menos dudas. Más reservas."
+      }
+    ]
+  },
+  "services": {
+    "kicker": "Qué activamos",
+    "title": "Solo lo que mueve clientes.",
+    "items": [
+      {
+        "icon": "◎",
+        "name": "Meta Ads"
+      },
+      {
+        "icon": "▣",
+        "name": "Contenido"
+      },
+      {
+        "icon": "⌖",
+        "name": "Google Business"
+      },
+      {
+        "icon": "↗",
+        "name": "WhatsApp"
+      },
+      {
+        "icon": "▤",
+        "name": "Web / Landing"
+      },
+      {
+        "icon": "☑",
+        "name": "SEO local"
+      }
+    ]
+  },
+  "difference": {
+    "kicker": "La diferencia",
+    "title": "No vendemos posts.",
+    "text": "Montamos un sistema mensual para que la visibilidad acabe en conversaciones reales.",
+    "metrics": [
+      {
+        "title": "+ mensajes",
+        "text": "Campañas pensadas para iniciar conversaciones."
+      },
+      {
+        "title": "+ reservas",
+        "text": "WhatsApp y landing orientados a cerrar."
+      },
+      {
+        "title": "+ control",
+        "text": "Medimos lo que importa cada mes."
+      }
+    ]
+  },
+  "projects": {
+    "kicker": "Proyectos",
+    "title": "Casos que se entienden de un vistazo.",
+    "subtitle": "Trabajos orientados a imagen, captación y conversación.",
+    "items": [
+      {
+        "slug": "restaurante-local",
+        "title": "Restaurante local",
+        "category": "Hostelería",
+        "summary": "Contenido, anuncios y WhatsApp para mover reservas.",
+        "image": "assets/uploads/proyecto-placeholder.png",
+        "problem": "Pocas reservas entre semana.",
+        "solution": "Oferta clara, creatividades locales y WhatsApp preparado.",
+        "result": "Más conversaciones medibles."
+      },
+      {
+        "slug": "clinica-local",
+        "title": "Clínica local",
+        "category": "Servicios",
+        "summary": "Presencia local, confianza y captación por mensajes.",
+        "image": "assets/uploads/proyecto-placeholder.png",
+        "problem": "Buena reputación, poca visibilidad digital.",
+        "solution": "Google Business, landing y anuncios de captación.",
+        "result": "Más solicitudes de información."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "¿Dónde estás perdiendo clientes?",
+    "text": "Escríbenos por WhatsApp. Te decimos qué tocaríamos primero y qué no tiene sentido pagar todavía.",
+    "formTitle": "Diagnóstico Firekworks",
+    "formSubtitle": "Respuesta por WhatsApp",
+    "button": "Abrir WhatsApp"
+  }
+}
