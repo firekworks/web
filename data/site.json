@@ -1,41 +1,11 @@
 {
-  "whatsappPhone": "34600000000",
-  "seo": {
-    "title": "Firekworks | Agencia de captación de clientes para negocios locales",
-    "description": "Agencia de marketing digital para negocios locales. Ayudamos a comercios, restaurantes, clínicas y gimnasios a conseguir más WhatsApps, reservas y clientes con contenido, web, Google y campañas."
-  },
-  "hero": {
-    "eyebrow": "Captación local para negocios que quieren vender más",
-    "titleMain": "Más clientes.",
-    "titleAccent": "Menos humo.",
-    "subtitle": "Hacemos que la gente de tu zona te descubra, confíe y termine escribiéndote.",
-    "primaryButton": "Quiero que reviséis mi negocio",
-    "secondaryButton": "Ver sistema",
-    "pillOne": "Te descubren",
-    "pillTwo": "Confían",
-    "pillThree": "Te escriben"
-  },
-  "problem": {
-    "kicker": "Lo que suele pasar",
-    "title": "Te ven. Dudan. Se van.",
-    "subtitle": "Si no entienden rápido por qué elegirte, comparan por precio o se olvidan.",
-    "cards": [
-      {
-        "number": "01",
-        "title": "Te ven, pero no te entienden.",
-        "text": "Tu valor no queda claro en segundos."
-      },
-      {
-        "number": "02",
-        "title": "Comparan y eligen a otro.",
-        "text": "Si pareces menos claro, pierdes."
-      },
-      {
-        "number": "03",
-        "title": "Preguntan y se enfrían.",
-        "text": "Sin camino fácil, la conversación muere."
-      }
-    ]
+  "contact": {
+    "kicker": "Contacto",
+    "title": "¿Dónde estás perdiendo clientes?",
+    "text": "Escríbenos por WhatsApp. Te decimos qué tocaríamos primero y qué no tiene sentido pagar todavía.",
+    "formTitle": "Diagnóstico Firekworks",
+    "formSubtitle": "Respuesta por WhatsAppp",
+    "button": "Enviar por WhatsApp"
   },
   "system": {
     "kicker": "Método Firekworks",
@@ -65,58 +35,6 @@
         "label": "Paso 4",
         "title": "Lo llevamos a WhatsApp.",
         "text": "Un camino fácil para preguntar, reservar o pedir cita."
-      }
-    ]
-  },
-  "services": {
-    "kicker": "Qué activamos",
-    "title": "Solo lo que mueve clientes.",
-    "items": [
-      {
-        "icon": "◎",
-        "name": "Meta Ads"
-      },
-      {
-        "icon": "▣",
-        "name": "Contenido"
-      },
-      {
-        "icon": "⌖",
-        "name": "Google Business"
-      },
-      {
-        "icon": "↗",
-        "name": "WhatsApp"
-      },
-      {
-        "icon": "▤",
-        "name": "Web / Landing"
-      },
-      {
-        "icon": "☑",
-        "name": "SEO local"
-      }
-    ]
-  },
-  "difference": {
-    "kicker": "La diferencia",
-    "title": "No vendemos posts.",
-    "text": "Montamos un sistema para que tu presencia digital acabe en conversaciones reales.",
-    "metrics": [
-      {
-        "icon": "💬",
-        "title": "+ mensajes",
-        "text": "Conversaciones con gente que ya entiende qué ofreces."
-      },
-      {
-        "icon": "📅",
-        "title": "+ reservas",
-        "text": "Un camino más fácil para pedir cita, reservar o preguntar."
-      },
-      {
-        "icon": "📈",
-        "title": "+ control",
-        "text": "Medimos lo importante y ajustamos cada mes."
       }
     ]
   },
@@ -157,12 +75,94 @@
       }
     ]
   },
-  "contact": {
-    "kicker": "Contacto",
-    "title": "¿Dónde estás perdiendo clientes?",
-    "text": "Escríbenos por WhatsApp. Te decimos qué tocaríamos primero y qué no tiene sentido pagar todavía.",
-    "formTitle": "Diagnóstico Firekworks",
-    "formSubtitle": "Respuesta por WhatsApp",
-    "button": "Enviar por WhatsApp"
+  "hero": {
+    "titleAccent": "Menos humo.",
+    "pillThree": "Te escriben",
+    "secondaryButton": "Ver sistema",
+    "eyebrow": "Captación local para negocios que quieren vender más",
+    "pillOne": "Te descubren",
+    "titleMain": "Más clientes.",
+    "pillTwo": "Confían",
+    "primaryButton": "Quiero que reviséis mi negocio",
+    "subtitle": "Hacemos que la gente de tu zona te descubra, confíe y termine escribiéndote."
+  },
+  "whatsappPhone": "34600000000",
+  "seo": {
+    "title": "Firekworks | Agencia de captación de clientes para negocios locales",
+    "description": "Agencia de marketing digital para negocios locales. Ayudamos a comercios, restaurantes, clínicas y gimnasios a conseguir más WhatsApps, reservas y clientes con contenido, web, Google y campañas."
+  },
+  "difference": {
+    "kicker": "La diferencia",
+    "title": "No vendemos posts.",
+    "text": "Montamos un sistema para que tu presencia digital acabe en conversaciones reales.",
+    "metrics": [
+      {
+        "icon": "💬",
+        "title": "+ mensajes",
+        "text": "Conversaciones con gente que ya entiende qué ofreces."
+      },
+      {
+        "icon": "📅",
+        "title": "+ reservas",
+        "text": "Un camino más fácil para pedir cita, reservar o preguntar."
+      },
+      {
+        "icon": "📈",
+        "title": "+ control",
+        "text": "Medimos lo importante y ajustamos cada mes."
+      }
+    ]
+  },
+  "services": {
+    "kicker": "Qué activamos",
+    "title": "Solo lo que mueve clientes.",
+    "items": [
+      {
+        "icon": "◎",
+        "name": "Meta Ads"
+      },
+      {
+        "icon": "▣",
+        "name": "Contenido"
+      },
+      {
+        "icon": "⌖",
+        "name": "Google Business"
+      },
+      {
+        "icon": "↗",
+        "name": "WhatsApp"
+      },
+      {
+        "icon": "▤",
+        "name": "Web / Landing"
+      },
+      {
+        "icon": "☑",
+        "name": "SEO local"
+      }
+    ]
+  },
+  "problem": {
+    "kicker": "Lo que suele pasar",
+    "title": "Te ven. Dudan. Se van.",
+    "subtitle": "Si no entienden rápido por qué elegirte, comparan por precio o se olvidan.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Te ven, pero no te entienden.",
+        "text": "Tu valor no queda claro en segundos."
+      },
+      {
+        "number": "02",
+        "title": "Comparan y eligen a otro.",
+        "text": "Si pareces menos claro, pierdes."
+      },
+      {
+        "number": "03",
+        "title": "Preguntan y se enfrían.",
+        "text": "Sin camino fácil, la conversación muere."
+      }
+    ]
   }
 }
